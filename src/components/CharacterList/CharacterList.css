@@ -1,0 +1,61 @@
+.character-list-wrapper {
+  padding-bottom: 40px;
+}
+
+.characters-list {
+  background-color: rgb(253, 253, 253);
+  border-radius: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin: 24px auto;
+}
+
+.character-card {
+  margin: 0;
+}
+
+.character-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-input {
+  border: 1.5px solid #c8d9f5;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: #3a4a6b;
+  outline: none;
+  background: #f8faff;
+}
+
+.input-name {
+  flex: 3;
+}
+.input-age {
+  flex: 1;
+}
+.input-job {
+  flex: 3;
+}
+.input-full {
+  flex: 1;
+}
+
+.form-btn {
+  padding: 8px 22px;
+  font-size: 0.9rem;
+}

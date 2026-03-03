@@ -1,24 +1,29 @@
 .card-img-top {
-  height: 300px !important;
-  object-fit: cover !important;
+  height: 300px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.195);
 }
 
 .card-text {
-  text-align: left !important;
-  margin: 2px !important;
-  font-size: 20px !important;
-  font-weight: 500 !important;
+  text-align: left;
+  margin: 2px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .card-title {
-  font-size: 30px !important;
+  font-size: 35px !important;
   font-weight: 700 !important;
-  padding: 10px !important;
+  padding: 10px;
 }
 
 .card.character-card {
-  padding: 10px !important;
-  margin-top: 25px !important;
-  border: none !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.195);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container button {
+  font-size: 25px;
+  font-weight: 500;
 }

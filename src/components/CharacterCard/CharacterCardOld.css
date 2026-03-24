@@ -1,0 +1,23 @@
+.card-img-top {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-text {
+  text-align: left;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.card.h-100 {
+  padding: 10px;
+  margin-top: 25px;
+}

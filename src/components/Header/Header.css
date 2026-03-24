@@ -9,3 +9,30 @@ header {
   font-weight: 700;
   color: rgb(1, 90, 163);
 }
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.nav.nav-underline {
+  justify-content: center;
+  background-color: rgba(0, 140, 255, 0.08);
+  margin-top: 12px;
+  padding: 8px 0;
+}
+
+.nav.nav-underline .nav-link {
+  font-size: 1.2rem;
+}
+
+.nav.nav-underline .nav-link.active {
+  color: #1a1a1a;
+  font-weight: 700;
+  border-bottom: 4px solid #1a1a1a;
+}
